@@ -130,3 +130,22 @@
     height: 100vh;
     overflow-y: auto;
   }
+
+
+  /* animazione */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 3; }
+}
+
+.fade-in {
+  animation: fadeIn 1s;
+}
+.hidden {
+  display: none;
+}
+
+.color--btn{
+  border-color: white;
+  background-color: rosybrown;
+}
